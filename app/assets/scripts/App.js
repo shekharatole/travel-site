@@ -3,6 +3,9 @@ import 'lazysizes';
 import MobileMenu from './MobileMenu';
 import RevealOnScroll from './RevealOnScroll';
 import StickyHeader from './StickyHeader';
+import ClientArea from './ClientArea';
+
+new ClientArea();
 new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScroll(document.querySelectorAll(".testimonials"), 60);
